@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.home__screen{
+  background-image: url('../public/start-screen.png');
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  padding-top: 150px;
+}
+.btn__start{
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.card__section{
+  display: flex;
+}
+
+.btn__start, .btn__hit, .btn__hand{
+  padding: 15px;
+  background: #cd9620 !important;
+  border: 1px solid #cd9620 !important;
+  color: #fff;
+  box-shadow: 8px 8px 8px 5px #2622229c !important; 
+  border-radius: 10px;
+  width: 150px;
+}
+.btn__hand{
+  float: right;
+}
+.player__cards img, .House__Cards img{
+  margin-left: -100px;
+  margin-top: 50px;
+}
+.player__cards img:first-child, .House__Cards img:first-child{
+  margin-left: 0px;
+}
+.House__Cards{
+  margin-bottom: 50px;
+}
